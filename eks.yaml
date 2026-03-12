@@ -8,7 +8,7 @@ metadata:
 
 managedNodeGroups:
   - name: roboshop-dev
-    instanceTypes: ["m5.large","c5.large","t3.large"]
+    instanceTypes: ["m5.large","t3.small","t3.medium","c5.large"]
     desiredCapacity: 2
     minSize: 2
     maxSize: 3
