@@ -4,14 +4,12 @@ kind: ClusterConfig
 metadata:
   name: roboshop-dev
   region: us-east-1
-  version: "1.31"
 
 managedNodeGroups:
   - name: roboshop-dev
-    instanceTypes: ["m5.large","t3.small","t3.medium","c5.large"]
+    instanceTypes: ["m5.large","c5.large","t3.large"]
     desiredCapacity: 2
     minSize: 2
     maxSize: 3
     privateNetworking: false
     spot: true
-
